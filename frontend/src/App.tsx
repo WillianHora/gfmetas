@@ -1,11 +1,13 @@
-import Botao1 from "./components/notificationbutton"
-function App(){
+import Header from "./components/header"
+function App() {
   return (
     <>
-      <h1>Olá mundo</h1>
-      <Botao1/>
-      </> 
-       )
+    
+    <h1>Oi, tudo bem?</h1>
+    <Header />
+    
+    </>
+  )
 }
 
 export default App
