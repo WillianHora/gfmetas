@@ -1,6 +1,6 @@
 import Logo from '../../assets/img/logo.svg'
-
-function Header(){
+import "./styles.css"
+function Header() {
     return (
         <header>
             <div className="dsmeta-logo-container">
@@ -12,7 +12,7 @@ function Header(){
                 </p>
             </div>
         </header>
-            )
+    )
 }
 
 export default Header
